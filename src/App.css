@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 520px;
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+p {
+  color: #444;
+  line-height: 1.5;
+}
+
+button {
+  width: 100%;
+  padding: 14px 18px;
+  margin-top: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #0052ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #aab7d4;
+  cursor: not-allowed;
+}
+
+.account,
+.status {
+  word-break: break-all;
+  background: #f0f3f9;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+a {
+  display: block;
+  margin-top: 18px;
+  color: #0052ff;
+  word-break: break-all;
+}
+
+.stats {
+  margin-top: 20px;
+  padding: 18px;
+  background: #f8faff;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.stats h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.progress {
+  width: 100%;
+  height: 14px;
+  background: #dfe7f5;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 16px 0;
+}
+
+.progress div {
+  height: 100%;
+  background: #0052ff;
+  border-radius: 999px;
+}
+
+.levels {
+  font-size: 13px;
+  color: #666;
+}
